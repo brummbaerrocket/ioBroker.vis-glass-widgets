@@ -1,0 +1,81 @@
+{
+    "common": {
+        "name": "vis-glass-widgets",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "glass-widget-vis",
+        "titleLang": {
+            "en": "glass-widget-vis",
+            "de": "Glas-Widget-Vis",
+            "ru": "стекло-виджет-vis",
+            "pt": "vidro-widget-vis",
+            "nl": "glas-widget-vis",
+            "fr": "verre-widget-vis",
+            "it": "widget di vetro-vis",
+            "es": "widget-de-vidrio-vis",
+            "pl": "glass-widget-vis",
+            "uk": "glass-widget-vis",
+            "zh-cn": "玻璃小部件可见"
+        },
+        "desc": {
+            "en": "vis-glass-widgets",
+            "de": "Vis-Glas-Widgets",
+            "ru": "виджеты vis-glass",
+            "pt": "vis-widgets de vidro",
+            "nl": "vis-glass-widgets",
+            "fr": "vis-à-verre-widgets",
+            "it": "widget vis-glass",
+            "es": "vis-glass-widgets",
+            "pl": "vis-glass-widgets",
+            "uk": "vis-glass-widgets",
+            "zh-cn": "vis-玻璃小部件"
+        },
+        "authors": [
+            "rocketbear <rocketbear@rocketbear.de>"
+        ],
+        "keywords": [
+            "vis",
+            "widget"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "vis-glass-widgets.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/brummbaerrocket/ioBroker.vis-glass-widgets/main/admin/vis-glass-widgets.png",
+        "readme": "https://github.com/brummbaerrocket/ioBroker.vis-glass-widgets/blob/main/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ],
+        "globalDependencies": []
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

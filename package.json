@@ -1,0 +1,49 @@
+{
+  "name": "iobroker.vis-glass-widgets",
+  "version": "0.0.1",
+  "description": "vis-glass-widgets",
+  "author": {
+    "name": "rocketbear",
+    "email": "rocketbear@rocketbear.de"
+  },
+  "homepage": "https://github.com/brummbaerrocket/ioBroker.vis-glass-widgets",
+  "license": "MIT",
+  "keywords": [
+    "vis",
+    "widget"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brummbaerrocket/ioBroker.vis-glass-widgets.git"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@alcalzone/release-script": "^3.6.0",
+    "@alcalzone/release-script-plugin-iobroker": "^3.6.0",
+    "@alcalzone/release-script-plugin-license": "^3.5.9",
+    "@alcalzone/release-script-plugin-manual-review": "^3.5.9",
+    "@iobroker/adapter-dev": "^1.2.0",
+    "@iobroker/testing": "^4.1.0"
+  },
+  "main": "widgets/vis-glass-widgets.html",
+  "files": [
+    "widgets/**/!(tsconfig|tsconfig.*|.eslintrc).json",
+    "widgets/**/*.{html,css,png,svg,jpg,js}",
+    "www/",
+    "io-package.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test:package": "mocha test/package --exit",
+    "test": "npm run test:package",
+    "translate": "translate-adapter",
+    "release": "release-script"
+  },
+  "bugs": {
+    "url": "https://github.com/brummbaerrocket/ioBroker.vis-glass-widgets/issues"
+  },
+  "readmeFilename": "README.md"
+}
